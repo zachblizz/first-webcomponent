@@ -1,3 +1,4 @@
+// following - https://www.youtube.com/watch?v=PCWaFLy3VUo&t=1501s
 const styles = `
     <style>
         .card {
