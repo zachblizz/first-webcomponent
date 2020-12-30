@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>first webcomponent</title>
+        <style>
+            h3 {
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Hello world</h3>
+        <user-card name="jimmyfargo" avatar="https://randomuser.me/api/portraits/men/2.jpg">
+            <div slot="email">jimmyfargoat@gmail.com</div>
+            <div slot="phone">(813) 361-9381</div>
+        </user-card>
+        <user-card name="jamyfargo" avatar="https://randomuser.me/api/portraits/women/2.jpg">
+            <div slot="email">jamyfargoat@gmail.com</div>
+            <div slot="phone">(813) 361-9381</div>
+        </user-card>
+        <script src="userCard.js"></script>
+    </body>
+</html>
